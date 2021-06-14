@@ -4,7 +4,7 @@ public class NumberValidRange {
     
 	public static boolean isValid(int num, int low, int high) {
 	    if(num <= low || num >= high) {
-	        System.out.println("Your number is not valid: " + num);
+	        System.out.println("Number " + num + " is not valid.");
 	        return true;	        
 	    }
 

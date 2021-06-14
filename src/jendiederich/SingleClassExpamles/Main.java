@@ -79,6 +79,28 @@ public class Main {
 		LastDigitChecker.hasSameLastDigit(242, 452, 978);
 		LastDigitChecker.hasSameLastDigit(1008, -1, 565);
 		System.out.println();
+		
+		
+		//GreatestCommonDivisor
+		System.out.println("GreatestCommonDivisor");
+		GreatestCommonDivisor.getGreatestCommonDivisor(35, 60);
+		GreatestCommonDivisor.getGreatestCommonDivisor(7, 99);
+		System.out.println();
+		
+		
+		//FactorPrinter
+		System.out.println("FactorPrinter");
+		FactorPrinter.printFactors(750);
+		FactorPrinter.printFactors(-6);
+		System.out.println();
+		
+		
+		//PerfectNumber
+		System.out.println("PerfectNumber");
+		PerfectNumber.isPerfectNumber(70);
+		PerfectNumber.isPerfectNumber(-4);
+		PerfectNumber.isPerfectNumber(11);
+		PerfectNumber.isPerfectNumber(496);
 	}	
 
 }
