@@ -61,6 +61,24 @@ public class Main {
 		System.out.println("EvenDigitSum");
 		EvenDigitSum.getEvenDigitSum(135246);
 		EvenDigitSum.getEvenDigitSum(-14);
+		System.out.println();
+		
+		
+		//SharedDigit
+		System.out.println("SharedDigit");
+		SharedDigit.hasSharedDigit(365, 257);
+		SharedDigit.hasSharedDigit(87, 567);
+		SharedDigit.hasSharedDigit(87, 67);
+		SharedDigit.hasSharedDigit(12, 43);
+		System.out.println();
+		
+		
+		//LastDigitChecker
+		System.out.println("LastDigitChecker");
+		LastDigitChecker.hasSameLastDigit(467, 258, 982);
+		LastDigitChecker.hasSameLastDigit(242, 452, 978);
+		LastDigitChecker.hasSameLastDigit(1008, -1, 565);
+		System.out.println();
 	}	
 
 }
