@@ -101,6 +101,13 @@ public class Main {
 		PerfectNumber.isPerfectNumber(-4);
 		PerfectNumber.isPerfectNumber(11);
 		PerfectNumber.isPerfectNumber(496);
+		System.out.println();
+		
+		
+		//NumberToWords
+		System.out.println("NumberToWords");
+		NumberToWords.numberToWords(200);
+		NumberToWords.numberToWords(56);
 	}	
 
 }
