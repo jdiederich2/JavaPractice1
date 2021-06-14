@@ -1,12 +1,13 @@
-package jendiederich.Challenge;
+package jendiederich.SingleClassExpamles;
 
 public class Challenge {
 	  public static boolean checkEnding(String str1, String str2) {
 		  
+
+		int str1Length = str1.length();  
 		int str2Length = str2.length();
-		int str1Length = str1.length();
 		int str1Start = str1Length - str2Length;
-	
+
 		System.out.println("String 2 Length: " + str2Length);
 		System.out.println("String 1 Length: " + str1Length);
 		System.out.println("String 1 Start: " + str1Start);
@@ -16,9 +17,11 @@ public class Challenge {
 	
 		if(subString.equals(str2)) {
 			System.out.println("String 2: " + str2 + ", String 1: " + subString + ". These 2 are equal.");
+			System.out.println("True");
 			return true;
 		}
-	
+
+		System.out.println("False: These strings are not equal!");
 		return false;
-	  }
+	}
 }

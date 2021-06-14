@@ -1,8 +1,5 @@
 package jendiederich.SingleClassExpamles;
 
-import jendiederich.Challenge.Challenge;
-import jendiederich.SumOddRange.SumOddRange;
-
 public class Main {
 
 	public static void main(String[] args) {
@@ -40,6 +37,30 @@ public class Main {
 		System.out.println("Challenge");
 		Challenge.checkEnding("mean", "know");
 		Challenge.checkEnding("monthly", "know");
-	}
+		Challenge.checkEnding("monthly", "mainly");
+		Challenge.checkEnding("know", "know");
+		System.out.println();
+		
+		
+		//NumberPalindrome
+		System.out.println("Number Palindrome");
+		NumberPalindrome.isPalindrome(5421);
+		NumberPalindrome.isPalindrome(5224);
+		NumberPalindrome.isPalindrome(5225);
+		System.out.println();
+		
+		
+		//FirstLastDigitSum
+		System.out.println("FirstLastDigitSum");
+		FirstLastDigitSum.sumFirstAndLastDigit(563);
+		FirstLastDigitSum.sumFirstAndLastDigit(-398);
+		System.out.println();
+		
+		
+		//EvenDigitSum
+		System.out.println("EvenDigitSum");
+		EvenDigitSum.getEvenDigitSum(135246);
+		EvenDigitSum.getEvenDigitSum(-14);
+	}	
 
 }

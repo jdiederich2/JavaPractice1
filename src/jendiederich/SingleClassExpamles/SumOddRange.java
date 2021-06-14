@@ -1,4 +1,4 @@
-package jendiederich.SumOddRange;
+package jendiederich.SingleClassExpamles;
 
 public class SumOddRange {
 	
