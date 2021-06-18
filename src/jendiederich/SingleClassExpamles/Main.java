@@ -108,6 +108,78 @@ public class Main {
 		System.out.println("NumberToWords");
 		NumberToWords.numberToWords(200);
 		NumberToWords.numberToWords(56);
+		System.out.println();
+		
+		
+		//FlourPacker
+		System.out.println("FlourPacker");
+		FlourPacker.canPack(15, 10, 50);
+		FlourPacker.canPack(3, 1, 50);
+		System.out.println();
+		
+		
+		//LargestPrime
+		System.out.println("LargestPrime");
+		LargestPrime.getLargestPrime(500);
+		LargestPrime.getLargestPrime(15);
+		System.out.println();
+		
+		
+		//PrintSquareStar
+		System.out.println("PrintSquareStar");
+		PrintSquareStar.printSquareStar(5);
+		PrintSquareStar.printSquareStar(8);
+		PrintSquareStar.printSquareStar(12);
+		System.out.println();
+		
+		
+		//InputCalculator
+		System.out.println("InputCalculator");
+		InputCalculator.inputThenPrintSumAndAverage();
+		System.out.println();
+		
+		
+		
+		
 	}	
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
